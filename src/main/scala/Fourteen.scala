@@ -34,7 +34,7 @@ object Fourteen extends App {
   val cat: IndexedSeq[(Int, Int)] = for (i <- max to 1 by -1) yield (i, computeChainLength(i))
   println(cat.maxBy(_._2))
 
-  
+
   def computeChainLength(seed: Long): Int = {
 
     // yes im using a var to cache the results, don't eat me
