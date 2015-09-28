@@ -5,19 +5,14 @@ import scala.io.Source
 /**
  * Created by alexandra on 28/09/15.
  */
+
+/*
+I'm sleepy. Don't look at this. I'm ashamed. But it works and i cba fixing it so..... :D
+ */
 object Eleven extends App {
 
   val size = 4
   val cat: Array[Array[Long]] = Source.fromURL(getClass.getResource("/Eleven.txt")).getLines().map(_.split(" ").map(_.toLong)).toArray
-
-  /*  0 1 2
-
-  0   1 2 3
-  1   4 5 6
-  2   7 8 9
-
-   */
-
  // val cat = Array(Array(1L,2L,3L), Array(4L,5L,6L), Array(7L,8L,9L))
 
  val across = for (i <- cat.indices; j <- cat.indices; if j <= cat.length - size)
