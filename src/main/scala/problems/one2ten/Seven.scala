@@ -1,4 +1,5 @@
-package problems
+package problems.one2ten
+
 import util.PrimeUtils._
 
 /**

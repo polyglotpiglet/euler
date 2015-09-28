@@ -1,7 +1,7 @@
-package problems
+package problems.one2ten
 
 import util.PrimeUtils
-import PrimeUtils._
+import util.PrimeUtils._
 
 /**
  * Created by alexandra on 27/09/15.

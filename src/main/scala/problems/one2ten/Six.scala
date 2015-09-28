@@ -1,5 +1,4 @@
-package problems
-import scala.math._
+package problems.one2ten
 
 /**
  * Created by alexandra on 27/09/15.

@@ -1,4 +1,4 @@
-package problems
+package problems.one2ten
 
 import scala.io.Source
 

@@ -7,6 +7,16 @@ import scala.annotation.tailrec
  */
 object SequenceUtils extends App {
 
+  def fibonacciTo(max: Int): Array[Int] = {
+
+    def helper(one: Int, two: Int, seq: Array[Int]): Array[Int] = {
+      if (two >= max) seq
+      else helper(two, one + two, seq :+ two)
+    }
+
+    helper(0, 1, Array(0))
+  }
+
   def nthFibonacci(n: Int): Int = {
 
     @tailrec
