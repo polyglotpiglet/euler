@@ -1,4 +1,4 @@
-package problems
+package problems.eleven2twenty
 
 import scala.io.Source
 
@@ -29,6 +29,5 @@ object Eleven extends App {
 
 
   println(across union down union diag1 union diag2 max)
-
 
 }
