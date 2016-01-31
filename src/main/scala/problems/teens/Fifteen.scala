@@ -1,4 +1,4 @@
-package problems.eleven2twenty
+package problems.teens
 
 /**
  * Created by alexandra on 29/09/15.

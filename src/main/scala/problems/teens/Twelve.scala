@@ -1,4 +1,4 @@
-package problems.eleven2twenty
+package problems.teens
 
 import util.DivisorUtils._
 

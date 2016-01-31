@@ -1,4 +1,4 @@
-package problems.eleven2twenty
+package problems.teens
 
 import scala.collection.immutable._
 
