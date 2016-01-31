@@ -49,15 +49,15 @@ object Eighty extends App {
   def buildTreeFromMatrix(mat: Array[Array[Int]]) = {
     val s = mat.length
 
-    def cat(node) = {
-
-    }
+//    def cat(node) = {
+//
+//    }
 
     val node = Node(mat(s)(s), 0 ,0  )
 
-    for {
-      i <- mat.length
-      j <- mat.length
-    } yield 0
+//    for {
+//      i <- mat.length
+//      j <- mat.length
+//    } yield 0
   }
 }
